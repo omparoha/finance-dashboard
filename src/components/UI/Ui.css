@@ -1,0 +1,84 @@
+
+
+:root {
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --danger: #dc2626;
+  --success: #16a34a;
+  --gray: #e5e7eb;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Button */
+.btn {
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+.btn-danger {
+  background: var(--danger);
+  color: white;
+}
+
+/* Input */
+.input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: var(--primary);
+}
+
+/* Select */
+.select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+/* Badge */
+.badge {
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.badge-income {
+  background: #dcfce7;
+  color: var(--success);
+}
+
+.badge-expense {
+  background: #fee2e2;
+  color: var(--danger);
+}
+
+/* Empty State */
+.empty {
+  text-align: center;
+  color: gray;
+  padding: 20px;
+}
