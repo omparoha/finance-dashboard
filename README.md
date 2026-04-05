@@ -122,6 +122,8 @@ npm run dev
 **Om Paroha**
 
 * GitHub: https://github.com/omparoha
+* ## 🌐 Live Demo
+https://finance-dashboard-five-weld.vercel.app/
 
 ---
 
